@@ -14,7 +14,7 @@ app.get("/",(req,res)=>{
 res.send("hello")
 });
 
-app.listen(8012,async()=>{
+app.listen(3100,async()=>{
     await connect()
-    console.log(`runnning on http://localhost:${8012}`)
+    console.log(`runnning on http://localhost:${3100}`)
 })
